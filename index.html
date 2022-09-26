@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=540></canvas>
+      <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,16 +20,23 @@
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-fullscreen-button"></div>
+        
       </div>
-      <div class="mt-5">
-        <h3>操作方法</h3>
-    <span class="border border-white">
-      <p>WASD、十字キーで移動、マウスで視点操作です。</p>
-      <p>展示物（土器など）をクリックすると詳細が見れます。</p>
-    </span>
+      <div>
+        <div class="mt-5">
+            <h3>操作方法</h3>
+        <span class="border border-white">
+          <p>WASD、十字キーで移動、マウスで視点操作です。</p>
+          <p>展示物（土器など）をクリックすると詳細が見れます。</p>
+        </span>
+    </div>
       </div>
       
-    </div>
+      
+      
+    
+    
+    
     
     <script>
       var container = document.querySelector("#unity-container");
@@ -128,3 +135,4 @@
     
   </body>
 </html>
+ 
